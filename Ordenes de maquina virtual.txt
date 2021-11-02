@@ -1,0 +1,309 @@
+Video para uso de git bush y git hub
+https://www.youtube.com/channel/UCGHP0gjPqTsHYMy32X4zyNQ 
+
+-------------------------------------------------
+PARA INICIAR LA MAQUINA VIRTUAL
+chmod 400 ssh-key-2021-10-13.key
+
+ssh -i ssh-key-2021-10-13.key opc@129.151.118.139
+
+-----------------------------------------------------------
+SUBIR UN ARCHIVO A GIT HUB POR PRIMERA VEZ
+1.) Crear un respositorio en git hub
+2.) Abrir en una carpeta con clic derecho git bush
+3.) dar los siguientes comandos
+
+git init   conexion entre el local con el remoto
+git status   permite saber que hay dentro de la carpeta
+git add .
+git config --global user.email "you@example.com"   lo solicita cuando se ingresa desde otro equipo
+git config --global user.name "Your Name"    lo solicita cuando se conecta esde otro equipo
+git commit -m "Archivo Comandos Git"   enviar un comentario
+ git remote add origin https://github.com/claudiaramirezmt/comandosmv.git
+ git push -u origin main
+se va a git hub y se refresca pantalla
+
+CREANDO REPOSITORIOS
+
+
+1. Tener el backend en Netbeans u otro editor,
+
+2. Ir a git hub y crear un respositorio, el link generado se debe copiar
+
+2. Desde la carpeta donde està el netbeans dar clic derecho y abrir con git bush
+
+3. clonar el archivo en git hub
+
+3.1. git clone https://github.com/Repositorioreto/Reto5   (este es el nombre del link de github)
+
+3.2 git add .
+
+3.3 git remote add origin https://github.com/claudiaramirezmt/Reto5.git
+
+3.4 git push -u origin master
+ 
+
+
+chmod 400 ssh-key-2021-10-13.key
+
+ssh -i ssh-key-2021-10-13.key opc@129.151.118.139
+
+sudo yum install git
+
+sudo yum install java-11-openjdk-devel
+
+sudo yum-config-manager --add-repo http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo
+
+sudo yum-config-manager --enable epel-apache-maven
+
+sudo yum install -y apache-maven
+
+sudo alternatives --config java
+
+   escribe el numero 1
+
+sudo alternatives --config javac
+
+   escribe 1
+
+PARTE 2
+CLONAR UN REPOSITORIO
+
+git clone https://github.com/JhonnyCamilo/cd.git
+
+git clone https://github.com/fabioortiz123456/reto003.git
+
+ls
+
+cd reto3
+Aqui se genera la carpeta de target
+
+entrar carpetamvn clean package -DskipTests
+
+cd ..
+rm -rf reto3
+ls
+git clone https://github.com/fabioortiz123456/reto003.git
+
+mvn clean package -DskipTests
+
+Aqui parace el target
+cd target
+
+sudo firewall-cmd --zone=public --add-port=8080/tcp --permanent
+
+sudo firewall-cmd --reload
+
+java -jar jhonny-0.0.1-SNAPSHOT.jar   (el jar que da el sistema
+
+TERCERA PARTE VAMOS AL POSTMAN
+PARA LIBRARNOS DEL TIMEOUT
+
+
+SE TESTEA EL TIEMPO DEBE BAJARSE A 200-300 MLISEGUNDOS
+http://168.138. /api/Category/all
+
+se copia la direccion y se lleva a mastertech
+se pega l 
+
+PARA ENVIAR EL RETO 4
+
+sudo pkill java
+
+sudo pkill 8080
+
+sudo pkil java
+
+java -jar reto3-02 snapshot.jar
+
+salir de la carpeta
+cd ..
+cd ..
+sudo pkill 8080
+sudo pkill java
+
+cd reto3
+cd target
+java -jar Reto3-0. SNAPSHOT.jar
+
+
+Se lleva a postman para bajar el tiempo y ahi se lleva a master tech
+
+-------------------
+COMO SUBIR UN ARCHIVO A GITHUB
+
+
+
+-------------------------------------------
+COMO REINICIAR LA MAQUINA VIRTUAL DESDE ORACLE
+
+sE DA STOP Y LUEGO START
+
+
+ssh -i ssh-key-2021-10-13.key opc@129.151.118.139    ESTA ORDEN ES PARA COMENZAR
+cd target
+sudo pkill 8080
+sudo pkill java
+java -jar  Reto3-0.0.01 SNAPSHAT.jar
+
+AHORA VAMOS A POSTMAN PARA TESTEAR 
+
+-----
+
+APUNTES
+
+https://github.com/fabioortiz123456/comandos.git
+
+--------------
+
+para que sirve
+
+git branch -M maingit remote add origin https://enlace
+
+
+
+después de que se sube al GitHub es cuando se clona en la maquina si?
+
+
+PARA ENVIAR EL FRONTED A LA MAQINA VIRTUAL
+
+cd /var/www/html
+
+git clone  https://github.com/   nombre de la url se encuentra en el github
+
+ls
+
+
+entrar a github
+entrar a scr
+entrar a main
+entrar a resource
+entrar a static
+entrar a frn
+
+
+
+PARA INSTALAR ARCHIVO EN GITHUB EL FRONTEND
+
+instalacion de apache:sudo yum install -y httpdsudo systemctl enable httpdsudo systemctl restart httpdsudo firewall-cmd --add-service=http --permanentsudo firewall-cmd --reloadgit bash:cd /var/www/htmlpermisos:sudo chmod 777 html
+
+sudo yum install -y httpd
+sudo systemctl enable httpd
+sudo systemctl restart httpd
+sudo firewall-cmd --add-
+service=http --permanent
+sudo firewall-cmd --reload
+git bash:
+cd /var/www/html
+
+permisos:
+
+sudo chmod 777 html
+
+________________________________
+_________________________________
+
+CREAR REPOSITORIO------------
+	git init
+	git status
+	git add .
+	git config --global user.name "nombre usuario"
+	git config --global user.email "nombre-usuario@correo.com"
+	git commit -m "comentario"
+	git branch -M main
+	git remote add origin https://enlace
+	git push -u origin main
+
+git init
+git add .
+git commit -m "subirreto"
+____________
+ACTIALIZAR REPOSITORIO--------------
+	git status
+	git add .
+	git commit -m "comentario"
+	git push -u origin main
+
+
+Pasos para instalar paquetes en la maquina virtual
+
+1): Actualizar paqutes 
+	sudo yum update
+2): Intalar git
+	sudo yum install git
+3): Intalar JDK
+	sudo yum install java-11-openjdk-devel
+4): Instalar maven
+	1: sudo yum-config-manager --add-repo http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo
+	2: sudo yum-config-manager --enable epel-apache-maven
+	3: sudo yum install -y apache-maven
+	4: sudo alternatives --config java
+	5: sudo alternatives --config javac
+© 2021 GitHub, Inc.
+
+
+CLONAR REPOSITORIO EN LA MV--------------------------------------------------------------------
+	Debes ingresar a la maquina virtual con tus llaves y estanfo hay ejecutas el siguiente comando
+		git clone +enlace del respositorio a clonr 
+		EJEMPLO: git clone http:// https://github.repositorio/rpt.git
+
+
+
+estos omando a continuacion son para poner en ejecucion la maquina virtual
+PASOS PARA LANZAR LA MV--------------------------------------------------------------------------------------------------
+     * Entrar carpeta
+	  1)  cd +nombre carpeta
+			para saber el nombre de la carpeta que vas abrirpuedes usar
+			el comando ls pra listar las carpetas que tienes
+	  2)  mvn clean package -DskipTests
+     * Entrar en target
+	  3)  cd target
+	  4)  sudo firewall-cmd --zone=public --add-port=8080/tcp --permanent
+	  5)  sudo firewall-cmd --reload
+	  6)  java -jar Reto3-0.0.1-SNAPSHOT.jar
+ 
+
+   
+IP publica :  129.151.123.85   -----cambiala por tu ip public obtenida en oracle
+
+LLaves acceso MV
+	 1) chmod 400 ssh-key-2021-10-17.key  (Privada)	
+	 2) ssh -i ssh-key-2021-10-17.key opc@129.151.123.85 (Publica)
+
+
+____________
+PARA INICIAR EL SERVICIO
+ssh -i ssh-key-2021-10-27.key opc@150.230.65.222
+sudo pkill 8080
+sudo pkill java
+ cd Fincas
+cd target
+java -jar Tutoria-0.0.1-SNAPSHOT.jar
+
+----
+PARA SUBIR ARCHIVOS A GIT HUB O clonar archivos al git hub
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/JhonnyCamilo/tutoria.git
+git push -u origin master
+
+----------------------------
+Dentro de la màquina virtual y desde GIT BUSH
+para detener la màquina virtual y no tener que ir a oracle para apagarla y activarla nuevamente
+#To list any process listening to the port 8080:lsof -i:8080
+#To kill any process listening to the port 8080:kill $(lsof -t -i:8080)
+#or more violently:kill -9 $(lsof -t -i:8080)
+
+-------------------------------------
+sudo apachectl status  ---> para detener apache
+sudo apachectl start   ---> para iniciar apachesudo apachectl status  ---> para ver el estado de apache
+
+sudo apachectl status  ---> para detener apache
+sudo apachectl start   ---> para iniciar apache
+sudo apachectl status  ---> para ver el estado de apache
+
+
+------------------------------------------------------------
+DRIVE
+RETO 5:   https://drive.google.com/drive/folders/1_klw0MTdRqtmuEBZ_5Vi7PcbAKodWn59
