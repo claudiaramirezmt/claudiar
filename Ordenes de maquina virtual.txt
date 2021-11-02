@@ -1,4 +1,4 @@
-CLAUDIA RAMIREZ *****
+CLAUDIA RAMIREZ *-*-*-*
 
 Video para uso de git bush y git hub
 https://www.youtube.com/channel/UCGHP0gjPqTsHYMy32X4zyNQ 
@@ -24,6 +24,10 @@ git commit -m "Archivo Comandos Git"   enviar un comentario
  git remote add origin https://github.com/claudiaramirezmt/comandosmv.git
  git push -u origin main
 se va a git hub y se refresca pantalla
+-----------------
+
+
+
 
 CREANDO REPOSITORIOS
 
@@ -309,3 +313,4 @@ sudo apachectl status  ---> para ver el estado de apache
 ------------------------------------------------------------
 DRIVE
 RETO 5:   https://drive.google.com/drive/folders/1_klw0MTdRqtmuEBZ_5Vi7PcbAKodWn59
+CLAUDIA RAMIREZ
